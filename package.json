@@ -1,0 +1,29 @@
+{
+  "name": "@fidtech-sa/ft-icons",
+  "version": "1.0.0",
+  "description": "fidtech icons",
+  "scripts": {
+    "packagr": "ng-packagr -p ng-package.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fontLight": "cpx \"./light/liga.js\" \"./dist/light\" && cpx \"./light/style.css\" \"./dist/light\" && cpx \"./light/fonts/Fidtech_Icons_light_v1.svg\" \"./dist/light/fonts\" && cpx \"./light/fonts/Fidtech_Icons_light_v1.ttf\" \"./dist/light/fonts\" && cpx \"./light/fonts/Fidtech_Icons_light_v1.woff\" \"./dist/light/fonts\" ",
+    "fontBold": "cpx \"./bold/liga.js\" \"./dist/bold\" && cpx \"./light/style.css\" \"./dist/bold\" && cpx \"./bold/fonts/Fidtech_Icons_bold_v1.svg\" \"./dist/bold/fonts\" && cpx \"./bold/fonts/Fidtech_Icons_bold_v1.ttf\" \"./dist/bold/fonts\" && cpx \"./bold/fonts/Fidtech_Icons_bold_v1.woff\" \"./dist/bold/fonts\" ",
+    "fontFill": "cpx \"./bold/liga.js\" \"./dist/bold\" && cpx \"./light/style.css\" \"./dist/bold\" && cpx \"./bold/fonts/Fidtech_Icons_bold_v1.svg\" \"./dist/bold/fonts\" && cpx \"./bold/fonts/Fidtech_Icons_bold_v1.ttf\" \"./dist/bold/fonts\" && cpx \"./bold/fonts/Fidtech_Icons_bold_v1.woff\" \"./dist/bold/fonts\" ",
+
+    "createDist": "cpx \"./package.json\" \"./dist\" && cpx \"./icons.ts\" \"./dist\" && npm run fontLight && cd dist && npm pack && cd .."
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/fidtech/ft-icons.git"
+  },
+  "author": "fidtech sa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/fidtech/ft-icons/issues"
+  },
+  "homepage": "https://gitlab.com/fidtech/ft-icons#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  }
+}

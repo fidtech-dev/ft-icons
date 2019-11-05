@@ -1,0 +1,423 @@
+@font-face {
+  font-family: 'Fidtech_Icons_light_v1';
+  src:
+    url('fonts/Fidtech_Icons_light_v1.ttf?hxmcun') format('truetype'),
+    url('fonts/Fidtech_Icons_light_v1.woff?hxmcun') format('woff'),
+    url('fonts/Fidtech_Icons_light_v1.svg?hxmcun#Fidtech_Icons_light_v1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ftl_icon"], [class*=" ftl_icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Fidtech_Icons_light_v1' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ftl_iconftl_dialog:before {
+  content: "\e97f";
+}
+.ftl_iconftl_faq:before {
+  content: "\e980";
+}
+.ftl_iconftl_generic_document:before {
+  content: "\e97d";
+}
+.ftl_iconftl_xls:before {
+  content: "\e97e";
+}
+.ftl_iconftl_filter:before {
+  content: "\e97c";
+}
+.ftl_iconftl_hierachy:before {
+  content: "\e945";
+}
+.ftl_iconftl_minus:before {
+  content: "\e977";
+}
+.ftl_iconftl_plus:before {
+  content: "\e978";
+}
+.ftl_iconftl_role:before {
+  content: "\e979";
+}
+.ftl_iconftl_sectors:before {
+  content: "\e97a";
+}
+.ftl_iconftl_user_hierachy:before {
+  content: "\e97b";
+}
+.ftl_iconftl_down_arrow_line:before {
+  content: "\e907";
+}
+.ftl_iconftl_left_arrow_line:before {
+  content: "\e942";
+}
+.ftl_iconftl_right_arrow_line:before {
+  content: "\e943";
+}
+.ftl_iconftl_up_arrow_line:before {
+  content: "\e944";
+}
+.ftl_iconftl_more_vert:before {
+  content: "\e976";
+}
+.ftl_iconftl_archive:before {
+  content: "\e972";
+}
+.ftl_iconftl_unarchive:before {
+  content: "\e974";
+}
+.ftl_iconftl_chat:before {
+  content: "\e973";
+}
+.ftl_iconftl_attach:before {
+  content: "\e969";
+}
+.ftl_iconftl_doc:before {
+  content: "\e96b";
+}
+.ftl_iconftl_file:before {
+  content: "\e96c";
+}
+.ftl_iconftl_path_finder:before {
+  content: "\e96d";
+}
+.ftl_iconftl_pdf:before {
+  content: "\e96e";
+}
+.ftl_iconftl_send_form:before {
+  content: "\e96f";
+}
+.ftl_iconftl_alert:before {
+  content: "\e900";
+}
+.ftl_iconftl_app_qr:before {
+  content: "\e901";
+}
+.ftl_iconftl_bike:before {
+  content: "\e902";
+}
+.ftl_iconftl_bike_code:before {
+  content: "\e903";
+}
+.ftl_iconftl_bike_cover:before {
+  content: "\e904";
+}
+.ftl_iconftl_blockchain:before {
+  content: "\e905";
+}
+.ftl_iconftl_calefaction:before {
+  content: "\e906";
+}
+.ftl_iconftl_car:before {
+  content: "\e975";
+}
+.ftl_iconftl_car_b:before {
+  content: "\e908";
+}
+.ftl_iconftl_car_bl:before {
+  content: "\e909";
+}
+.ftl_iconftl_car_br:before {
+  content: "\e90a";
+}
+.ftl_iconftl_car_cover:before {
+  content: "\e90b";
+}
+.ftl_iconftl_car_f:before {
+  content: "\e90c";
+}
+.ftl_iconftl_car_fl:before {
+  content: "\e90d";
+}
+.ftl_iconftl_car_fr:before {
+  content: "\e90e";
+}
+.ftl_iconftl_card:before {
+  content: "\e90f";
+}
+.ftl_iconftl_clean_bike:before {
+  content: "\e910";
+}
+.ftl_iconftl_clean_car:before {
+  content: "\e911";
+}
+.ftl_iconftl_clean_motorbike:before {
+  content: "\e912";
+}
+.ftl_iconftl_clock:before {
+  content: "\e913";
+}
+.ftl_iconftl_close:before {
+  content: "\e914";
+}
+.ftl_iconftl_cloud_v2:before {
+  content: "\e915";
+}
+.ftl_iconftl_computers:before {
+  content: "\e916";
+}
+.ftl_iconftl_config:before {
+  content: "\e917";
+}
+.ftl_iconftl_config_ok:before {
+  content: "\e918";
+}
+.ftl_iconftl_contract:before {
+  content: "\e919";
+}
+.ftl_iconftl_cop:before {
+  content: "\e91a";
+}
+.ftl_iconftl_cpu:before {
+  content: "\e91b";
+}
+.ftl_iconftl_credential:before {
+  content: "\e91c";
+}
+.ftl_iconftl_date:before {
+  content: "\e91d";
+}
+.ftl_iconftl_desk:before {
+  content: "\e91e";
+}
+.ftl_iconftl_digital_signature:before {
+  content: "\e91f";
+}
+.ftl_iconftl_dishwhasher:before {
+  content: "\e920";
+}
+.ftl_iconftl_down:before {
+  content: "\e921";
+}
+.ftl_iconftl_download_pdf:before {
+  content: "\e922";
+}
+.ftl_iconftl_edit:before {
+  content: "\e923";
+}
+.ftl_iconftl_false:before {
+  content: "\e924";
+}
+.ftl_iconftl_finished:before {
+  content: "\e925";
+}
+.ftl_iconftl_folder:before {
+  content: "\e926";
+}
+.ftl_iconftl_fridge:before {
+  content: "\e927";
+}
+.ftl_iconftl_help:before {
+  content: "\e928";
+}
+.ftl_iconftl_history:before {
+  content: "\e929";
+}
+.ftl_iconftl_joystick:before {
+  content: "\e92a";
+}
+.ftl_iconftl_left:before {
+  content: "\e92b";
+}
+.ftl_iconftl_login:before {
+  content: "\e92c";
+}
+.ftl_iconftl_logout:before {
+  content: "\e92d";
+}
+.ftl_iconftl_loundry_calefaction:before {
+  content: "\e92e";
+}
+.ftl_iconftl_mail:before {
+  content: "\e92f";
+}
+.ftl_iconftl_menu:before {
+  content: "\e930";
+}
+.ftl_iconftl_microwave:before {
+  content: "\e931";
+}
+.ftl_iconftl_money:before {
+  content: "\e932";
+}
+.ftl_iconftl_motobike_b:before {
+  content: "\e933";
+}
+.ftl_iconftl_motorbike:before {
+  content: "\e934";
+}
+.ftl_iconftl_motorbike_cover:before {
+  content: "\e935";
+}
+.ftl_iconftl_motorbike_fl:before {
+  content: "\e936";
+}
+.ftl_iconftl_movements:before {
+  content: "\e937";
+}
+.ftl_iconftl_new_document:before {
+  content: "\e938";
+}
+.ftl_iconftl_night:before {
+  content: "\e939";
+}
+.ftl_iconftl_notebook:before {
+  content: "\e93a";
+}
+.ftl_iconftl_notification:before {
+  content: "\e93b";
+}
+.ftl_iconftl_oven:before {
+  content: "\e93c";
+}
+.ftl_iconftl_ovens:before {
+  content: "\e93d";
+}
+.ftl_iconftl_p2p_dfs:before {
+  content: "\e93e";
+}
+.ftl_iconftl_phone:before {
+  content: "\e93f";
+}
+.ftl_iconftl_photo:before {
+  content: "\e940";
+}
+.ftl_iconftl_photo_history:before {
+  content: "\e941";
+}
+.ftl_iconftl_photo_session:before {
+  content: "\e946";
+}
+.ftl_iconftl_place:before {
+  content: "\e947";
+}
+.ftl_iconftl_plate:before {
+  content: "\e948";
+}
+.ftl_iconftl_policy_qr:before {
+  content: "\e949";
+}
+.ftl_iconftl_printer:before {
+  content: "\e94a";
+}
+.ftl_iconftl_procedures:before {
+  content: "\e94b";
+}
+.ftl_iconftl_reload:before {
+  content: "\e94c";
+}
+.ftl_iconftl_reminder:before {
+  content: "\e94d";
+}
+.ftl_iconftl_report:before {
+  content: "\e94e";
+}
+.ftl_iconftl_resize:before {
+  content: "\e94f";
+}
+.ftl_iconftl_right:before {
+  content: "\e950";
+}
+.ftl_iconftl_rim:before {
+  content: "\e951";
+}
+.ftl_iconftl_search:before {
+  content: "\e952";
+}
+.ftl_iconftl_share:before {
+  content: "\e953";
+}
+.ftl_iconftl_shield:before {
+  content: "\e954";
+}
+.ftl_iconftl_speaker:before {
+  content: "\e955";
+}
+.ftl_iconftl_sun:before {
+  content: "\e956";
+}
+.ftl_iconftl_time:before {
+  content: "\e957";
+}
+.ftl_iconftl_top:before {
+  content: "\e958";
+}
+.ftl_iconftl_touch:before {
+  content: "\e959";
+}
+.ftl_iconftl_transfer:before {
+  content: "\e95a";
+}
+.ftl_iconftl_trash:before {
+  content: "\e95b";
+}
+.ftl_iconftl_true:before {
+  content: "\e95c";
+}
+.ftl_iconftl_tv:before {
+  content: "\e95d";
+}
+.ftl_iconftl_tv_video:before {
+  content: "\e95e";
+}
+.ftl_iconftl_upload:before {
+  content: "\e95f";
+}
+.ftl_iconftl_upload_v2:before {
+  content: "\e960";
+}
+.ftl_iconftl_user:before {
+  content: "\e961";
+}
+.ftl_iconftl_user_details:before {
+  content: "\e962";
+}
+.ftl_iconftl_users:before {
+  content: "\e963";
+}
+.ftl_iconftl_valid_place:before {
+  content: "\e964";
+}
+.ftl_iconftl_video:before {
+  content: "\e965";
+}
+.ftl_iconftl_view:before {
+  content: "\e966";
+}
+.ftl_iconftl_washing_machine:before {
+  content: "\e968";
+}
+.ftl_iconftl_wheel:before {
+  content: "\e96a";
+}
+.ftl_iconftl_white_appliance:before {
+  content: "\e970";
+}
+.ftl_iconftl_win:before {
+  content: "\e971";
+}
+.ftl_iconftl_wine_cellar:before {
+  content: "\e967";
+}
